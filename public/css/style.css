@@ -1,0 +1,253 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background: #fcf4ed;
+  color: #333;
+}
+header {
+  padding: 10px;
+  text-align: center;
+  background-color: #e2dad4;
+  margin-bottom: 1px;  
+  line-height: 0.4;
+}
+header h1 {
+  font-size: 50px;
+}
+header h3 {
+  font-size: 30px;
+}
+
+h1 {
+  margin-top: 64px;
+}
+
+h2 {
+  color: #eee;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #3282b8;
+}
+
+canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* Buttons styles start */
+button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #1E8125;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+  background: #0da514;
+  outline: 0;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+/* Button styles end */
+menu {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #ffffff;
+  color: #0e0d0d;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+menu:hover,
+menu:focus {
+  background: #0f0f0f;
+  outline: 0;
+}
+
+menu:active {
+  transform: scale(0.99);
+}
+/* Button styles end */
+
+/*menu style start*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+  background-color: #e2dad4; 
+  font-weight: 500; 
+  position: sticky; 
+  top: 0; 
+  width: 100%; 
+}
+      li {
+  float: left; 
+  /*border-right: 1px solid white; */
+}
+li a {
+  display: block; 
+  color: #0f0f0f; 
+  text-align: center; 
+  padding: 14px 30px; 
+  text-decoration: none; 
+}
+/*div {
+  padding: 5px; 
+  margin-top: 0px;  
+}*/
+/* Change the link color on hover*/
+li a:hover {
+  background-color: #c4bcb6
+}
+.active {
+  background-color: #ffffff; 
+}
+/*menu style ends*/ 
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*warning signs*/
+.shit {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*text under pictures - warning signs*/
+.shit p {
+  font-size: 20px;
+  line-height: 1;
+}
+
+/*distance between pictures - warning signs*/
+.fuck {
+  width: calc(100% / 3);
+  flex: none;
+}
+
+.header-text-div {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.3;
+  text-align: center;
+  margin: 32px 0;
+}
+#difference-text {
+  width: 30%;
+  margin: 0 auto;
+  line-height: 1.2;
+}
+
+#top-container {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 30px; 
+}
+
+#middle-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#map-chart-container {
+  width: 20%;
+  height: 500px;
+}
+
+#button-container {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  margin-right: 32px;
+}
+
+#line-chart-container {
+  width: 50%;
+  height: 500px;
+}
+
+#pie-chart-container {
+  justify-content: center;
+  align-items: center;
+  margin-left: 32px;
+  width: 35%; 
+}
+
+#pie-chart-container p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#donut-chart-container {
+  height: 300px;
+  width: 300px;
+  /* margin: 0 auto; */
+  align-self: flex-end;
+  margin-right: 16px;
+}
+
+#thought-container {
+  justify-content: center;
+  margin-left: 16px;
+}
+
+#thoughts {
+  width: 60%;
+}
+
+#bottom-container {
+  margin: 16px 0 48px 0;
+}
+
+#help-texts {
+  background-color: #206E25;
+  align-items: center;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
