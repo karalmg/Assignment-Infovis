@@ -14,7 +14,7 @@
   "dependencies": {
     "billboard.js": "^1.12.0-next.3",
     "chart.js": "^2.9.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fast-csv": "^4.1.1",
     "jquery-csv": "^1.0.8",
     "moment": "^2.24.0"
